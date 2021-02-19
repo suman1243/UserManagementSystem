@@ -78,7 +78,10 @@
       <DependentUpon>ViewUsers.cs</DependentUpon>
     </Compile>
     <Compile Include="General\Connection.cs" />
+<<<<<<< HEAD
     <Compile Include="General\StaticData.cs" />
+=======
+>>>>>>> 7437642c53b34f076c6c279e8f06b8e3988b428f
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\TemplateForm.resx">

@@ -17,7 +17,11 @@ namespace UserManagementSystem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD
             Application.Run(new ViewUsers());
+=======
+            Application.Run(new ViewRoles());
+>>>>>>> 7437642c53b34f076c6c279e8f06b8e3988b428f
         }
     }
 }

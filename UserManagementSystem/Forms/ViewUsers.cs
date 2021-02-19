@@ -34,6 +34,7 @@ namespace UserManagementSystem.Forms
                     }
                     DataTable dt = new DataTable();
                     SqlDataReader dr = cmd.ExecuteReader();
+<<<<<<< HEAD
                     if (dr.HasRows)
                     {
                         dt.Load(dr);
@@ -78,12 +79,15 @@ namespace UserManagementSystem.Forms
                     }
                     DataTable dt = new DataTable();
                     SqlDataReader dr = cmd.ExecuteReader();
+=======
+>>>>>>> 7437642c53b34f076c6c279e8f06b8e3988b428f
                     dt.Load(dr);
                     UserGridView.DataSource = dt;
                 }
             }
         }
 
+<<<<<<< HEAD
 
         private void UserGridView_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -98,6 +102,11 @@ namespace UserManagementSystem.Forms
                 LoadUsergrid();
 
             }
+=======
+        private void CancelButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+>>>>>>> 7437642c53b34f076c6c279e8f06b8e3988b428f
         }
     }
 }

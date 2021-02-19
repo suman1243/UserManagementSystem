@@ -92,8 +92,11 @@ namespace UserManagementSystem.Forms
             // 
             // dataGridView1
             // 
+<<<<<<< HEAD
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
+=======
+>>>>>>> 7437642c53b34f076c6c279e8f06b8e3988b428f
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(12, 89);
             this.dataGridView1.Name = "dataGridView1";

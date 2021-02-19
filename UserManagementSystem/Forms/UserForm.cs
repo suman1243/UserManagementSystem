@@ -18,6 +18,7 @@ namespace UserManagementSystem.Forms
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
         public int UserId { get; set; }
         public bool  IsUpdate { get; set; }
         private void UserForm_Load(object sender, EventArgs e)
@@ -52,6 +53,12 @@ namespace UserManagementSystem.Forms
                     }
                 }
             }
+=======
+
+        private void UserForm_Load(object sender, EventArgs e)
+        {
+
+>>>>>>> 7437642c53b34f076c6c279e8f06b8e3988b428f
             DeleteButton.Enabled = false;
             LoadComboBox();
         }
@@ -96,7 +103,11 @@ namespace UserManagementSystem.Forms
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Parameters.AddWithValue("@Flag", "Insert");
                     cmd.Parameters.AddWithValue("@Username", txtUserName.Text);
+<<<<<<< HEAD
                     cmd.Parameters.AddWithValue("@Password", StaticData.EncryptData(txtPassword.Text));
+=======
+                    cmd.Parameters.AddWithValue("@Password", txtPassword.Text);
+>>>>>>> 7437642c53b34f076c6c279e8f06b8e3988b428f
                     cmd.Parameters.AddWithValue("@RoleId", cboRole.SelectedValue);
                     cmd.Parameters.AddWithValue("@IsActive", chkIsActive.Checked);
                     cmd.Parameters.AddWithValue("@Description", txtDescription.Text);
@@ -109,6 +120,7 @@ namespace UserManagementSystem.Forms
                     cmd.ExecuteNonQuery();
 
                     MessageBox.Show("Data Inserted Successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+<<<<<<< HEAD
                     Resetvalue();
                 }
             }
@@ -122,5 +134,10 @@ namespace UserManagementSystem.Forms
             chkIsActive.Checked = true;
             cboRole.SelectedIndex = -1;
         }
+=======
+                }
+            }
+        }
+>>>>>>> 7437642c53b34f076c6c279e8f06b8e3988b428f
     }
 }

@@ -114,8 +114,11 @@ namespace UserManagementSystem.Forms
             // chkIsActive
             // 
             this.chkIsActive.AutoSize = true;
+<<<<<<< HEAD
             this.chkIsActive.Checked = true;
             this.chkIsActive.CheckState = System.Windows.Forms.CheckState.Checked;
+=======
+>>>>>>> 7437642c53b34f076c6c279e8f06b8e3988b428f
             this.chkIsActive.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkIsActive.Location = new System.Drawing.Point(281, 124);
             this.chkIsActive.Name = "chkIsActive";
